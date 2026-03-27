@@ -4,7 +4,6 @@ function Navbar() {
       <a href="#home" className="hover:text-gray-400 transition">Home</a>
       <a href="#projects" className="hover:text-gray-400 transition">Projects</a>
       <a href="#skills" className="hover:text-gray-400 transition">Skills</a>
-      <a href="#about" className="hover:text-gray-400 transition">About</a>
       <a href="#contact" className="hover:text-gray-400 transition">Contact</a>
     </nav>
   );

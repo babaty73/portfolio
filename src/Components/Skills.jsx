@@ -1,10 +1,14 @@
 function Skills() {
   const skills = [
-    { name: "HTML", level: 90 },
-    { name: "CSS / Tailwind", level: 85 },
-    { name: "JavaScript", level: 80 },
-    { name: "React", level: 75 },
-    { name: "TypeScript", level: 60 },
+    { name: "HTML / CSS/JavaScript", level: 97 },
+    { name: "React", level: 93 },
+    { name: "Node.js", level: 50 },
+    { name: "Git", level: 85},
+    { name: "Python", level: 75 },
+    { name: "C++", level: 90 },
+    { name: "Problem Solving", level: 90 },
+    { name: "Team Collaboration", level: 85 },
+    { name: "Time Management", level: 95 },
   ];
 
   return (

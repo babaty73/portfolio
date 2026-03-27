@@ -16,13 +16,16 @@ function Hero() {
         <img
   src={heroImage}
   alt="Hero"
-  className="rounded-xl shadow-lg w-full max-w-sm mx-auto object-cover h-64 md:h-96"
+  className="rounded-full shadow-lg w-full max-w-sm mx-auto object-cover h-90 md:h-96 p-16"
 />
 
       </div>
-        <p className="text-gray-400 text-lg mb-6 max-w-xl">
-          Front-end developer building clean and responsive web applications.
-        </p>
+           <p className="text-gray-400 text-lg mb-6 max-w-xl p-12">
+        My Name is <strong>Imran Endris </strong>I'm a Civil Engineering
+        Student in Adama Science and Technology University (ASTU) <br></br>
+        I'm a skilled and Dedicated Front-end developer 
+        building clean and responsive web applications. 
+    </p>
         <a
           href="#projects"
           className="bg-white text-black px-6 py-2 rounded-lg hover:bg-gray-300 transition"
