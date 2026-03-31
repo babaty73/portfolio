@@ -3,13 +3,18 @@ function Projects() {
     {
       title: "Lost and Found App",
       description: "A React app to manage lost items and find their owners.",
-      link: "#",
+      link: "https://lost-and-found-six-theta.vercel.app/",
     },
     {
       title: "Personal Profile Manager",
       description: "Manage your personal info, skills, and projects in one place.",
-      link: "#",
+      link: "https://personal-profile-manager.vercel.app/",
     },
+    {
+      title: "Mini Counter app",
+      description: "A simple counter app built with React.",
+      link: "https://mini-counter-app-flame.vercel.app/",
+    }
   ];
 
   return (
