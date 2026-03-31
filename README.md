@@ -1,16 +1,68 @@
-# React + Vite
+# 🚀 Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive portfolio website built using React and Tailwind CSS.
 
-Currently, two official plugins are available:
+## 📌 About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project showcases my work, skills, and background as a front-end developer.
+It is designed with a clean dark theme and smooth user experience.
 
-## React Compiler
+## 🛠️ Built With
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React (Vite)
+* Tailwind CSS
+* JavaScript
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Responsive design (mobile & desktop)
+* Smooth scrolling navigation
+* Modern dark UI
+* Project showcase with images
+* Skills section with progress indicators
+
+## 📂 Sections
+
+* Home (Hero)
+* Projects
+* Skills
+* Contact
+
+## 🔗 Live Demo
+
+👉 https://portfolio-nine-nu-33.vercel.app/
+
+## 📸 Screenshots
+
+(Add screenshots here later)
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/babaty73/portfolio.git
+cd portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the project:
+
+```bash
+npm run dev
+```
+
+## 📬 Contact
+
+Feel free to reach out if you want to collaborate or have any questions.
+
+---
+
+⭐ If you like this project, consider giving it a star!
+
+If you are developing a production 
