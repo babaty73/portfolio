@@ -32,9 +32,6 @@ It is designed with a clean dark theme and smooth user experience.
 
 👉 https://portfolio-nine-nu-33.vercel.app/
 
-## 📸 Screenshots
-
-(Add screenshots here later)
 
 ## ⚙️ Installation
 
@@ -59,10 +56,10 @@ npm run dev
 
 ## 📬 Contact
 
+👉 imranidris10999@gmail.com
+
 Feel free to reach out if you want to collaborate or have any questions.
 
 ---
 
 ⭐ If you like this project, consider giving it a star!
-
-If you are developing a production 
