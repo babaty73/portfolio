@@ -19,12 +19,14 @@ function Hero() {
   className="rounded-full shadow-lg w-full max-w-sm mx-auto object-cover h-90 md:h-96 p-16"
 />
 
-      </div>
-           <p className="text-gray-400 text-lg mb-6 max-w-xl p-12">
-        My Name is <strong>Imran Endris </strong>I'm a Civil Engineering
-        Student in Adama Science and Technology University (ASTU) <br></br>
+      </div >
+      <div>
+        <h1 className=" flex justify-start font-extrabold text-[42px]">Hi there</h1>
+           <p className=" bg-gray-800 h-auto w-full border-2 border-gray-500 rounded-md p-8 mb-6">
+        My Name is <strong>Imran Endris </strong>I'm a 2nd year Civil Engineering
+        Student in Adama Science and Technology University (ASTU)
         I'm a skilled and Dedicated Front-end developer 
-        building clean and responsive web applications. 
+        I build clean and responsive web applications. 
     </p>
         <a
           href="#projects"
@@ -32,6 +34,7 @@ function Hero() {
         >
           View Projects
         </a>
+        </div>
       </div>
 
       
