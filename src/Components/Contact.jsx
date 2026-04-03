@@ -146,12 +146,6 @@ function Contact() {
         >
           <FaGithub />
         </a>
-        <a
-          href="mailto:imranidris10999@gmail.com"
-          className="text-gray-400 hover:text-red-500 transition-colors duration-300 text-3xl animate-float"
-        >
-          <FaEnvelope />
-        </a>
      <a
   href="https://t.me/babafootballeru"
   target="_blank"
