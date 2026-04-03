@@ -1,4 +1,12 @@
+import { useEffect, useState } from "react";
+
 function Projects() {
+  const [animate, setAnimate] = useState(false);
+
+  useEffect(() => {
+    setAnimate(true);
+  }, []);
+
   const projectList = [
     {
       title: "Lost and Found App",
@@ -25,9 +33,9 @@ function Projects() {
       id="projects"
       className="min-h-screen flex flex-col items-center justify-center px-4 py-16"
     >
-      <h2 className="text-4xl font-bold mb-12">Projects</h2>
+      <h2 className={`text-4xl font-bold mb-12 transform transition-all duration-1000 ${animate ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>Projects</h2>
 
-      <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 w-full max-w-6xl">
+      <div className={`grid gap-8 md:grid-cols-2 lg:grid-cols-3 w-full max-w-6xl transform transition-all duration-1000 delay-300 ${animate ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
         {projectList.map((project, idx) => (
           <a
             key={idx}

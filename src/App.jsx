@@ -12,10 +12,6 @@ function App() {
       <Projects />
       <Skills />
       <Contact />
-
-      <section id="contact" className="h-screen flex items-center justify-center">
-        <h1 className="text-4xl">Contact</h1>
-      </section>
     </div>
   );
 }
