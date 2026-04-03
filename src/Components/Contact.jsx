@@ -8,6 +8,7 @@ function Contact() {
   const formRef = useRef();
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setAnimate(true);
   }, []);
 
@@ -16,15 +17,18 @@ function Contact() {
 
     emailjs
       .sendForm(
-        "service_c1y8zfc",   // replace with your EmailJS service ID
-        "template_p66xI2g",  // replace ith your EmailJS template ID
+        "service_c1y8zfc",   // r
+        "template_p66xl2g",  // replace ith your EmailJS template ID
         formRef.current,
-        "Knor1DI54HMQMvkb6"    // replace with your EmailJS public key
+        "Knor1Dl54HMQMvkb6"    // replace with your EmailJS public key
       )
       .then(
         (result) => {
     console.log("SUCCESS:", result.text);
     setStatus("success");
+    formRef.current.reset(); // Reset the form after successful submission
+    // Clear the success message after 3 seconds
+    setTimeout(() => setStatus(""), 3000);
   },
   (error) => {
     console.error("ERROR:", error.text);
