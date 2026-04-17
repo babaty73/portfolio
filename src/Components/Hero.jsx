@@ -1,4 +1,4 @@
-import heroImage from "../assets/Prof.jpg"; 
+import heroImage from "../assets/Prof.png"; 
 import { useEffect, useState } from "react";
 
 function Hero() {
@@ -20,7 +20,7 @@ function Hero() {
           Hi, I'm Imran
         </h1>
         <p className="text-lg mb-6">
-          My Name is <strong>Imran Endris</strong>. I'm a 2nd year Civil Engineering
+          My Name is <strong>Imran Endris</strong>. I'm a 2nd year
           Student in Adama Science and Technology University (ASTU).
           I'm a skilled and Dedicated Front-end developer.
           I build clean and responsive web applications.
