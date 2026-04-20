@@ -42,7 +42,7 @@ function Contact() {
       className="min-h-screen flex flex-col items-center justify-center px-4 py-16 bg-gray-900 text-white"
     >
       <h2
-        className={`text-4xl font-bold mb-4 transform transition-all duration-1000 ${
+        className={`text-4xl font-bold mb-4 border-b-2 transform transition-all duration-1000 ${
           animate ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
         }`}
       >

@@ -47,7 +47,7 @@ function Hero() {
         <img
           src={heroImage}
           alt="Hero"
-          className="rounded-full shadow-lg w-full max-w-sm mx-auto object-cover h-50 md:h-82 mb-2px "
+          className="rounded-full shadow-lg w-full max-w-sm mx-auto object-cover h-22 md:h-98 mb-34px  "
         />
       </div>
     </section>

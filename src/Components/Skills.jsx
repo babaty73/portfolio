@@ -25,7 +25,7 @@ function Skills() {
       id="skills"
       className="min-h-screen flex flex-col items-center justify-center px-4 py-16"
     >
-      <h2 className={`text-4xl font-bold mb-12 transform transition-all duration-1000 ${animate ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>Skills</h2>
+      <h2 className={`text-4xl font-bold mb-12 border-b-2 transform transition-all duration-1000 ${animate ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>Skills</h2>
 
       <div className={`w-full max-w-2xl space-y-6 transform transition-all duration-1000 delay-300 ${animate ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
         {skills.map((skill, idx) => (
