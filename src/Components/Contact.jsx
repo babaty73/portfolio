@@ -26,8 +26,7 @@ function Contact() {
         (result) => {
     console.log("SUCCESS:", result.text);
     setStatus("success");
-    formRef.current.reset(); // Reset the form after successful submission
-    // Clear the success message after 3 seconds
+    formRef.current.reset();
     setTimeout(() => setStatus(""), 3000);
   },
   (error) => {

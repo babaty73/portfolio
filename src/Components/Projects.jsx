@@ -4,7 +4,9 @@ function Projects() {
   const [animate, setAnimate] = useState(false);
 
   useEffect(() => {
-    setAnimate(true);
+    //es-lint-disable-next-line react-hooks/set-state-in-effect
+    setAnimate(true); 
+    //es-lint-disable-next-line react-hooks/set-state-in-effect
   }, []);
 
   const projectList = [
@@ -21,6 +23,12 @@ function Projects() {
       link: "https://personal-profile-manager.vercel.app/",
     },
     {
+      title: "Todo List App",
+      img: "/assets/TodoScreenshot.PNG",
+      description: "A simple todo list app built with HTML,CSS & JS.",
+      link: "https://imran-todo-app-2026.netlify.app/",
+    },
+    {
       title: "Mini Counter app",
       img: "/assets/mini-counter-app.jpg",
       description: "A simple counter app built with React.",
@@ -33,7 +41,7 @@ function Projects() {
       id="projects"
       className="min-h-screen flex flex-col items-center justify-center px-4 py-16"
     >
-      <h2 className={`text-4xl font-bold mb-12 transform transition-all duration-1000 ${animate ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>Projects</h2>
+      <h2 className={`text-4xl font-bold mb-12 transform transition-all duration-1000 ${animate ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'} `}>Projects</h2>
 
       <div className={`grid gap-8 md:grid-cols-2 lg:grid-cols-3 w-full max-w-6xl transform transition-all duration-1000 delay-300 ${animate ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
         {projectList.map((project, idx) => (
