@@ -1,6 +1,6 @@
 import heroImage from "../assets/Prof.png";
 import { useEffect, useState } from "react";
-import { FaHtml5, FaReact,FaCss3, FaPython ,FaNodeJs, FaGitAlt} from "react-icons/fa";
+import { FaHtml5,FaCode, FaReact,FaCss3, FaPython ,FaNodeJs, FaGitAlt} from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { SiJavascript, SiTailwindcss } from "react-icons/si";
 
@@ -72,7 +72,7 @@ function Hero() {
             className="rounded-full shadow-lg w-full max-w-sm  object-cover"
           />
 
-        
+
         </div>
       </div>
     </section>

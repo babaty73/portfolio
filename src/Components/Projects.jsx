@@ -4,9 +4,8 @@ function Projects() {
   const [animate, setAnimate] = useState(false);
 
   useEffect(() => {
-    //es-lint-disable-next-line react-hooks/set-state-in-effect
-    setAnimate(true); 
-    //es-lint-disable-next-line react-hooks/set-state-in-effect
+    //eslint-disable-next-line react-hooks/set-state-in-effect
+    setAnimate(true);
   }, []);
 
   const projectList = [
@@ -27,12 +26,6 @@ function Projects() {
       img: "/assets/TodoScreenshot.PNG",
       description: "A simple todo list app built with HTML,CSS & JS.",
       link: "https://imran-todo-app-2026.netlify.app/",
-    },
-    {
-      title: "Mini Counter app",
-      img: "/assets/mini-counter-app.jpg",
-      description: "A simple counter app built with React.",
-      link: "https://mini-counter-app-flame.vercel.app/",
     }
   ];
 
