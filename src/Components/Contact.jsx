@@ -130,7 +130,7 @@ function Contact() {
         }`}
       >
         <a
-          href="https://www.linkedin.com/in/imran-idris-26b0103a2?utm_source=share_via&utm_content=profile&utm_medium=member_android/"
+          href="https://www.linkedin.com/in/imran-endris-26b0103a2"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-400 hover:text-blue-500 transition-colors duration-300 text-3xl animate-float"
