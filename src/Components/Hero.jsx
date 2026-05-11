@@ -50,7 +50,7 @@ function Hero() {
           className="bg-white text-black px-6 py-2 rounded-lg hover:bg-gray-300
            transition ml-4"
         >
-          Download CV
+          Download Resume
         </a>
       </div>
 
