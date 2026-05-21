@@ -16,8 +16,7 @@ function Hero() {
   return (
     <section
       id="home"
-      className="h-screen flex flex-col md:flex-row items-center justify-center
-       text-center md:text-left px-4 md:px-16 gap-8"
+      className="min-h-screen flex flex-col md:flex-row items-center justify-center text-center md:text-left px-4 md:px-16 gap-8"
     >
       {/* Left Text */}
       <div
@@ -25,7 +24,7 @@ function Hero() {
           animate ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
         }`}
       >
-        <h1 className="text-5xl font-bold mt-40 mb-8">
+        <h1 className="text-5xl sm:text-6xl font-bold mb-8">
           Hi, I'm Imran
         </h1>
 
@@ -60,16 +59,13 @@ function Hero() {
           animate ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
         }`}
       >
-        <div className="relative w-[360px] h-[360px] mx-auto mb-16 
-        flex items-center justify-center">
-
-
-
+        <div className="relative w-full max-w-[360px] aspect-square mx-auto mb-16 flex items-center justify-center">
           {/* Profile Image */}
           <img
             src={heroImage}
             alt="Hero"
-            className="rounded-full shadow-lg w-full max-w-sm  object-cover"
+            loading="lazy"
+            className="rounded-full shadow-lg w-full h-full object-cover"
           />
 
 

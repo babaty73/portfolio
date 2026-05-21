@@ -18,7 +18,6 @@ function Projects() {
       demo: "https://bloom-cares.vercel.app/",
       github: "https://github.com/babaty73/bloom-care",
       tech: ["React", "Tailwind", "Typescript"],
-      outcome: "Improved local pharmacy discovery; 30% faster search",
     },
     {
       title: "Lost and Found App",
@@ -27,7 +26,6 @@ function Projects() {
       demo: "https://lost-and-found-six-theta.vercel.app/",
       github: "https://github.com/babaty73/lost-and-found",
       tech: ["React", "JavaScript", "CSS"],
-      outcome: "Reduced item recovery time; simplified reporting flow",
     },
     {
       title: "Personal Profile Manager",
@@ -36,7 +34,6 @@ function Projects() {
       demo: "https://personal-profile-manager.vercel.app/",
       github: "https://github.com/babaty73/personal-profile-manager",
       tech: ["React", "CSS", "JavaScript"],
-      outcome: "Centralized profile management for quick updates",
     },
   ];
 
@@ -91,7 +88,7 @@ function Projects() {
               </div>
 
               {/* Actions */}
-              <div className="mt-6 flex gap-3">
+              <div className="mt-6 flex flex-wrap gap-3 items-center">
                 {project.demo && (
                   <a href={project.demo} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-white text-black px-4 py-2 rounded hover:bg-gray-200 transition">
                     Live Demo <FiExternalLink />
@@ -111,13 +108,13 @@ function Projects() {
 
       {/* Modal for screenshot/details */}
       {selectedProject && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70">
-          <div className="bg-gray-900 rounded-lg max-w-3xl w-full mx-4 overflow-hidden">
-            <div className="flex justify-between items-center p-4 border-b border-gray-800">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4">
+          <div className="bg-gray-900 rounded-lg max-w-3xl w-full h-full max-h-[90vh] overflow-y-auto overflow-x-hidden">
+            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center p-4 border-b border-gray-800 gap-4">
               <h3 className="text-xl font-semibold">{selectedProject.title}</h3>
               <button onClick={() => setSelectedProject(null)} className="text-gray-300 px-3 py-1 rounded hover:bg-gray-800">Close</button>
             </div>
-            <img src={selectedProject.img} alt={selectedProject.title} className="w-full h-96 object-cover" />
+            <img src={selectedProject.img} alt={selectedProject.title} loading="lazy" className="w-full max-h-[55vh] object-cover" />
             <div className="p-6">
               <p className="text-gray-300 mb-4">{selectedProject.description}</p>
               <div className="flex flex-wrap gap-2 mb-4">
@@ -125,16 +122,18 @@ function Projects() {
                   <span key={i} className="text-xs bg-gray-800 text-gray-200 px-2 py-1 rounded">{t}</span>
                 ))}
               </div>
-              {selectedProject.demo && (
-                <a href={selectedProject.demo} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-white text-black px-4 py-2 rounded mr-3">
-                  Open Demo <FiExternalLink />
-                </a>
-              )}
-              {selectedProject.github && (
-                <a href={selectedProject.github} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 border border-gray-600 px-4 py-2 rounded text-gray-200">
-                  <FaGithub /> Give it a Star
-                </a>
-              )}
+              <div className="flex flex-wrap gap-3">
+                {selectedProject.demo && (
+                  <a href={selectedProject.demo} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-white text-black px-4 py-2 rounded">
+                    Open Demo <FiExternalLink />
+                  </a>
+                )}
+                {selectedProject.github && (
+                  <a href={selectedProject.github} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 border border-gray-600 px-4 py-2 rounded text-gray-200">
+                    <FaGithub /> View Code
+                  </a>
+                )}
+              </div>
             </div>
           </div>
         </div>
