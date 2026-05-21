@@ -24,33 +24,33 @@ function Hero() {
           animate ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
         }`}
       >
-        <h1 className="text-5xl sm:text-6xl font-bold mb-8">
+        <h1 className="text-3xl mt-16 sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight">
           Hi, I'm Imran
         </h1>
 
-        <p className="text-lg mb-6">
+        <p className="text-base sm:text-lg mb-6">
           My Name is <strong>Imran Endris</strong>. I'm a 2nd year
           Student in Adama Science and Technology University (ASTU).
           I'm a skilled and Dedicated Front-end developer.
           I build clean and responsive web applications.
         </p>
 
-        <a
-          href="#projects"
-          className="bg-white text-black px-6 py-2 rounded-lg hover:bg-gray-300
-           transition"
-        >
-          View Projects
-        </a>
+        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-4">
+          <a
+            href="#projects"
+            className="bg-white text-black px-6 py-2 rounded-lg hover:bg-gray-300 transition text-center"
+          >
+            View Projects
+          </a>
 
-        <a
-          href="/Imran_Idris_CV.pdf"
-          download="Imran_Idris_CV.pdf"
-          className="bg-white text-black px-6 py-2 rounded-lg hover:bg-gray-300
-           transition ml-4"
-        >
-          Download Resume
-        </a>
+          <a
+            href="/Imran_Idris_CV.pdf"
+            download="Imran_Idris_CV.pdf"
+            className="bg-white text-black px-6 py-2 rounded-lg hover:bg-gray-300 transition text-center"
+          >
+            Download Resume
+          </a>
+        </div>
       </div>
 
       {/* Right Image with Floating Icons */}
@@ -59,7 +59,7 @@ function Hero() {
           animate ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
         }`}
       >
-        <div className="relative w-full max-w-[360px] aspect-square mx-auto mb-16 flex items-center justify-center">
+        <div className="relative w-full max-w-[320px] h-[386px]  aspect-square mx-auto mb-16 flex items-center justify-center">
           {/* Profile Image */}
           <img
             src={heroImage}
