@@ -9,10 +9,16 @@ function Projects() {
   }, []);
 
   const projectList = [
+     {
+      title: "Bloom Care",
+      img: "/assets/bloom-care-screenshot.png",
+      description: "A healthcare app for finding pharmacies and medicines nearby.",
+      link: "https://bloom-cares.vercel.app/",
+    },
     {
       title: "Lost and Found App",
       img: "/assets/lost-and-found.jpg",
-      description: "A React app to manage lost items and find their owners.",
+      description: "App that helps to manage lost items and find their owners.",
       link: "https://lost-and-found-six-theta.vercel.app/",
     },
     {
@@ -20,12 +26,6 @@ function Projects() {
       img: "/assets/personal-profile-manager.jpg",
       description: "Manage your personal info, skills, and projects in one place.",
       link: "https://personal-profile-manager.vercel.app/",
-    },
-    {
-      title: "Todo List App",
-      img: "/assets/TodoScreenshot.PNG",
-      description: "A simple todo list app built with HTML,CSS & JS.",
-      link: "https://imran-todo-app-2026.netlify.app/",
     }
   ];
 
