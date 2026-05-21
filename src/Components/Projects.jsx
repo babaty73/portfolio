@@ -80,11 +80,6 @@ function Projects() {
                     </span>
                   ))}
                 </div>
-
-                {/* Outcome / metrics */}
-                {project.outcome && (
-                  <p className="text-sm text-gray-300 italic">{project.outcome}</p>
-                )}
               </div>
 
               {/* Actions */}
