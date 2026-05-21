@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { FaHtml5,FaReact, FaNodeJs, FaGitAlt, FaPython } from "react-icons/fa";
-import { SiJavascript, SiCplusplus, SiTailwindcss } from "react-icons/si";
+import { SiJavascript, SiCplusplus, SiTailwindcss, SiTypescript } from "react-icons/si";
 
 function Skills() {
   const [animate, setAnimate] = useState(false);
@@ -17,7 +17,8 @@ function Skills() {
     { name: "Git", level: 85, icon: <FaGitAlt /> },
     { name: "Python", level: 75, icon: <FaPython /> },
     { name: "C++", level: 90, icon: <SiCplusplus /> },
-    { name: "Tailwind CSS", level: 90, icon: <SiTailwindcss /> }
+    { name: "Tailwind CSS", level: 90, icon: <SiTailwindcss /> },
+    { name: "TypeScript", level: 60, icon: <SiTypescript /> }
   ];
 
   return (

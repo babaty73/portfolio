@@ -125,7 +125,7 @@ function Contact() {
       </form>
 
       <div
-        className={`flex space-x-6 transform transition-all duration-1000 delay-600 ${
+        className={`flex space-x-16 mt-4 transform transition-all duration-1000 delay-600 ${
           animate ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
         }`}
       >
@@ -133,7 +133,7 @@ function Contact() {
           href="https://www.linkedin.com/in/imran-endris-26b0103a2"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-gray-400 hover:text-blue-500 transition-colors duration-300 text-3xl animate-float"
+          className="text-gray-400 hover:text-blue-500 transition-colors duration-300 text-5xl "
         >
           <FaLinkedin />
         </a>
@@ -141,18 +141,18 @@ function Contact() {
           href="https://github.com/babaty73"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-gray-400 hover:text-gray-200 transition-colors duration-300 text-3xl animate-float"
+          className="text-gray-400 hover:text-gray-200 transition-colors duration-300 text-5xl "
         >
           <FaGithub />
         </a>
-     <a
-  href="https://t.me/babafootballeru"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="text-gray-400 hover:text-green-500 transition-colors duration-300 text-3xl animate-float"
->
-  <FaTelegram />
-</a>
+        <a
+          href="https://t.me/babafootballeru"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-gray-400 hover:text-green-500 transition-colors duration-300 text-5xl "
+        >
+           <FaTelegram />
+        </a>
 
       </div>
     </section>
