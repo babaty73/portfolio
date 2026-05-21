@@ -59,7 +59,7 @@ function Hero() {
           animate ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
         }`}
       >
-        <div className="relative w-full max-w-[320px] h-[386px]  aspect-square mx-auto mb-10 flex items-center justify-center">
+        <div className="relative w-full max-w-[320px] h-[386px]  aspect-square mx-auto mb-8 md:mb-4 lg:mb-4 flex items-center justify-center">
           {/* Profile Image */}
           <img
             src={heroImage}
