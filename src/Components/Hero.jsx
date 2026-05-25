@@ -44,8 +44,8 @@ function Hero() {
           </a>
 
           <a
-            href="/Imran_Idris_CV.pdf"
-            download="Imran_Idris_CV.pdf"
+            href="/Imran_Idris_Resume.pdf"
+            download="Imran_Idris_Resume.pdf"
             className="bg-white text-black px-6 py-2 rounded-lg hover:bg-gray-300 transition text-center"
           >
             Download Resume
