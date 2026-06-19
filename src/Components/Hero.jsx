@@ -1,6 +1,6 @@
 import heroImage from "../assets/Prof.png";
 import { useEffect, useState } from "react";
-import { FaHtml5,FaCode, FaReact,FaCss3, FaPython ,FaNodeJs, FaGitAlt} from "react-icons/fa";
+import { FaHtml5,FaCode, FaReact,FaCss3, FaPython ,FaNodeJs, FaGitAlt, } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { SiJavascript, SiTailwindcss } from "react-icons/si";
 
@@ -31,8 +31,8 @@ function Hero() {
         <p className="text-base sm:text-lg mb-6">
           My Name is <strong>Imran Endris</strong>. I'm a 2nd year
           Student in Adama Science and Technology University (ASTU).
-          I'm a skilled and Dedicated Front-end developer.
-          I build clean and responsive web applications.
+          I'm a skilled and Dedicated Full-Stack(MERN) developer.
+          I build clean and scalable web applications.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-4">

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaGitAlt, FaPython, FaGithub } from "react-icons/fa";
-import { SiJavascript, SiCplusplus, SiTailwindcss, SiTypescript, SiExpress } from "react-icons/si";
+import { SiJavascript, SiCplusplus, SiTailwindcss, SiTypescript, SiExpress,SiMongodb } from "react-icons/si";
 import { VscCode } from "react-icons/vsc";
 
 const stacks = [
@@ -21,6 +21,7 @@ const stacks = [
     items: [
       { name: "Node.js",    icon: <FaNodeJs />,   color: "text-green-500" },
       { name: "Express.js", icon: <SiExpress />,  color: "text-gray-400" },
+      { name: "Mongodb", icon: <SiMongodb />,  color: "text-green-400" },
     ],
     cols: "grid-cols-2",
   },
