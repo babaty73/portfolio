@@ -12,6 +12,14 @@ function Projects() {
 
   const projectList = [
     {
+      title: "Appointment Booking App",
+      img: "/assets/apointment.png",
+      description: "Book your Appointments wherever you are.",
+      demo: "http://appointment-booking-app11.vercel.app/",
+      github: "https://github.com/babaty73/Appointment-booking-app",
+      tech: ["React", "Tailwind CSS", "JavaScript", "Express", "Mongodb"],
+    },
+    {
       title: "Bloom Care",
       img: "/assets/bloom-care-screenshot.png",
       description: "A healthcare app for finding pharmacies and medicines nearby.",
